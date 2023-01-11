@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -77,21 +77,20 @@ header#header {
   margin-bottom: 9.5rem;
 }
 
-.menu-scroll{
+.menu-scroll {
   position: fixed;
   right: 0;
 
   display: flex;
   justify-content: space-between;
 
-  padding: 1rem 1.5rem;
+  padding: 0.7rem 1.5rem;
 
   margin-bottom: 9.5rem;
 
   width: 100%;
 
   background-color: white;
-
 
   z-index: 102;
 }
@@ -102,7 +101,7 @@ header#header {
   line-height: 3.84rem;
 }
 
-.mobile{
+.mobile {
   /* display: none; */
   position: fixed;
   top: 0;
@@ -114,37 +113,37 @@ header#header {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.menu-open{
+.menu-open {
   display: flex;
   flex-direction: column;
   gap: 4.2rem;
 
   padding: 9.3rem 4rem;
-  
+
   position: absolute;
   top: 0;
   right: 0;
   height: 100vh;
   width: 65vw;
 
-  background-color: white; 
+  background-color: white;
 
   opacity: 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.menu-open a{
+.menu-open a {
   font-size: 2rem;
 
   color: rgb(108, 117, 125);
 }
 
 .icon-menu,
-.icon-close{
+.icon-close {
   font-size: 2.4rem;
 }
 
-.menu-mobile-x{
+.menu-mobile-x {
   position: absolute;
 
   top: 5px;
@@ -178,7 +177,6 @@ section.hello p {
 .dog-bg {
   height: 65vh;
 
-  background-image: url("https://preview.colorlib.com/theme/dogger/images/dogger_img_1.png.webp");
   background-image: url(./profile-pic.png);
   background-size: cover;
   background-position: top;
@@ -235,171 +233,168 @@ section.hello p {
 }
 
 /* OUR_TRAINERS==================================    */
-.our-trainers{
-    background-color: #f8f9fa;
+.our-trainers {
+  background-color: #f8f9fa;
 
-    padding-block: .3rem;
+  padding-block: 0.3rem;
 }
 
-.trainer h4{
-    font-size: 2.08rem;
-    font-weight: 500;
-    line-height: 2.496rem;
+.trainer h4 {
+  font-size: 2.08rem;
+  font-weight: 500;
+  line-height: 2.496rem;
 
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
-.social-trainer{
-    display: flex;
-    gap: 1.1rem;
+.social-trainer {
+  display: flex;
+  gap: 1.1rem;
 
-    margin-top: 2.4rem;
-    margin-bottom: 2.8rem;
+  margin-top: 2.4rem;
+  margin-bottom: 2.8rem;
 }
 
-.trainer i{
-    color: #5A8787;
+.trainer i {
+  color: #5a8787;
 
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
-.trainer i:hover{
-    display: inline-block;
-    transform: translateY(-6px);
+.trainer i:hover {
+  display: inline-block;
+  transform: translateY(-6px);
 }
-
 
 /* PRICING TABLE==================================     */
-.pricing-table-container{
-    padding-inline: 1.5rem;
+.pricing-table-container {
+  padding-inline: 1.5rem;
 
-    padding-top: 2.3rem;
-    padding-bottom: 3.2rem;
+  padding-top: 2.3rem;
+  padding-bottom: 3.2rem;
 
-    background-color: #A2C0BE;
+  background-color: #a2c0be;
 
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
-.price h4{
-    font-size: 2.8rem;
-    font-weight: 500;
-    line-height: 3.36rem;
-    text-transform: uppercase;
+.price h4 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 3.36rem;
+  text-transform: uppercase;
 
-    margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
-.price .dollar{
-    font-size: 4.8rem;
-    font-weight: 400;
-    line-height: 8.16rem;
+.price .dollar {
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 8.16rem;
 
-    margin-bottom: 2.4rem;
+  margin-bottom: 2.4rem;
 }
 
-.price .dollar span{
-    font-size: 1.6rem;
+.price .dollar span {
+  font-size: 1.6rem;
 }
 
-.pricing-table-container ul{
-    display: grid;
-    align-items: center;
-    text-align: left;
-    gap: 3rem;
+.pricing-table-container ul {
+  display: grid;
+  align-items: center;
+  text-align: left;
+  gap: 3rem;
 }
 
-.pricing-table-container li{
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
+.pricing-table-container li {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.pricing-table-container li.line-through{
-    text-decoration: line-through;
+.pricing-table-container li.line-through {
+  text-decoration: line-through;
 }
 
-.pricing-table-container button{
-    background-color: #6C757D;
+.pricing-table-container button {
+  background-color: #6c757d;
 
-    color: white;
-    font-weight: 400;
-    line-height: 2.4rem;
+  color: white;
+  font-weight: 400;
+  line-height: 2.4rem;
 
-    border: none;
-    border-radius: 3rem;
+  border: none;
+  border-radius: 3rem;
 
-    padding: 1rem 3rem;
+  padding: 1rem 3rem;
 
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
-.pricing-table-container.premium{
-    background-color: #343A40;
+.pricing-table-container.premium {
+  background-color: #343a40;
 }
 
-.pricing-table-container.premium button{
-    background-color: #A2C0BE;
+.pricing-table-container.premium button {
+  background-color: #a2c0be;
 }
 
 /* HAPPY COSTUMERS==================================      */
-.costumers{
+.costumers {
   margin-bottom: 4rem;
 }
 
-.costumer{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.costumer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.costumer blockquote{
-    background-color: #A2C0BE;
+.costumer blockquote {
+  background-color: #a2c0be;
 
-    padding: 3rem;
+  padding: 3rem;
 
-    margin-inline: .5rem;
+  margin-inline: 0.5rem;
 
-    font-size: 1.4rem;
-    font-style: italic;
-    text-align: center;
+  font-size: 1.4rem;
+  font-style: italic;
+  text-align: center;
 
-    border-radius: .7rem;
+  border-radius: 0.7rem;
 
-    margin-top: 8rem;
+  margin-top: 8rem;
 }
 
-.costumer img{
-    border-radius: 10rem;
+.costumer img {
+  border-radius: 10rem;
 
-    width: 10rem;
+  width: 10rem;
 
-    border: 1rem solid #a2c0be;
+  border: 1rem solid #a2c0be;
 
-    margin-top: 3.5rem;
-    margin-bottom: 2rem;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
 }
-
 
 /* BLOG==================================      */
 .section-blog {
   margin-bottom: 2.4rem;
 }
 
-
-.blog h3{
+.blog h3 {
   font-size: 2.08rem;
   font-weight: 500;
   line-height: 2.496rem;
 
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
   margin-top: 1rem;
 }
 
-.blog .date{
+.blog .date {
   font-weight: 400;
   color: rgb(179, 179, 179);
   line-height: 2.72rem;
@@ -407,7 +402,7 @@ align-items: center;
   margin-bottom: 1.6rem;
 }
 
-.blog p{
+.blog p {
   font-weight: 400;
   line-height: 2.72rem;
   color: rgb(128, 128, 128);
@@ -415,7 +410,7 @@ align-items: center;
   margin-bottom: 1.6rem;
 }
 
-.blog a{
+.blog a {
   display: inline-block;
   color: rgb(162, 192, 190);
   line-height: 2.72rem;
@@ -423,17 +418,16 @@ align-items: center;
   margin-bottom: 5rem;
 }
 
-
 /* OUR SERVICES==================================       */
-.our-services{
+.our-services {
   margin-bottom: 4rem;
 }
 
-.service img{
+.service img {
   width: 10rem;
 }
 
-.service h3{
+.service h3 {
   font-size: 2.08rem;
   font-weight: 500;
   line-height: 2.496rem;
@@ -442,24 +436,23 @@ align-items: center;
   margin-top: 3rem;
 }
 
-.service p{
+.service p {
   line-height: 2.7rem;
   color: rgb(128, 128, 128);
 
   margin-bottom: 4.4rem;
 }
 
-
 /* CONTACT FORM==================================        */
-.contact-form-bg{
+.contact-form-bg {
   display: flex;
   flex-direction: column;
 
   padding: 4.8rem;
-  background-color: #A2C0BE;
+  background-color: #a2c0be;
 }
 
-.contact-form h3{
+.contact-form h3 {
   color: rgb(64, 90, 88);
   font-weight: 500;
   font-size: 2.4rem;
@@ -468,41 +461,41 @@ align-items: center;
   margin-bottom: 4.8rem;
 }
 
-.contact-form form{
+.contact-form form {
   display: flex;
   flex-direction: column;
 }
 
-.contact-form label{
+.contact-form label {
   color: rgb(86, 120, 118);
   line-height: 2.72rem;
 
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 
   margin-top: 2.4rem;
 }
 
-.contact-form input{
+.contact-form input {
   height: 4.3rem;
 
-  padding: .6rem 1.2rem;
+  padding: 0.6rem 1.2rem;
 
   border: none;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 
   line-height: 2.4rem;
 }
 
-.contact-form form textarea{
+.contact-form form textarea {
   height: 18.2rem;
 
   line-height: 2.4rem;
 
-  padding: .6rem 1.2rem;
+  padding: 0.6rem 1.2rem;
 }
 
 .contact-form form button {
-  background-color: #343A40;
+  background-color: #343a40;
 
   color: white;
   font-weight: 400;
@@ -518,38 +511,36 @@ align-items: center;
   width: 16.8703rem;
 }
 
-
 /* CONTACT_US==================================         */
-.contact-us-bg{
+.contact-us-bg {
   display: flex;
   flex-direction: column;
 
   padding: 4.8rem;
 
-  background-color: #6C757D;
+  background-color: #6c757d;
 }
 
-.contact-us .title h2{
+.contact-us .title h2 {
   color: white;
 }
 
 .contacts h5,
-.contact-us p{
+.contact-us p {
   color: white;
   font-size: 1.6rem;
   line-height: 2.72rem;
 }
 
-.contact-us span  {
+.contact-us span {
   display: inline-block;
-  color: #A8B1B6;
+  color: #a8b1b6;
 
   margin-bottom: 2rem;
 }
 
-
 /* FOOTER==================================          */
-.footer-bg{
+.footer-bg {
   display: flex;
   flex-direction: column;
 
@@ -558,25 +549,25 @@ align-items: center;
   background-color: #333333;
 }
 
-.footer h4{
+.footer h4 {
   color: white;
   font-weight: 500;
 
   margin-bottom: 2.4rem;
 }
 
-.quick-links{
+.quick-links {
   margin-bottom: 2.4rem;
 }
 
-.footer .quick-links a{
+.footer .quick-links a {
   display: inline-block;
   color: rgb(153, 153, 153);
 
   margin-bottom: 1rem;
 }
 
-footer .social-links{
+footer .social-links {
   display: flex;
   gap: 0 3.2rem;
 
@@ -585,21 +576,95 @@ footer .social-links{
   margin-bottom: 4.5rem;
 }
 
-.footer-final{
+.footer-final {
   border-top: 1px solid rgb(153, 153, 153);
   padding-top: 2.4rem;
   text-align: center;
   color: rgb(153, 153, 153);
 }
 
-.footer-final a{
-  color: #5A8787;
+.footer-final a {
+  color: #5a8787;
 }
 
-@media(min-width: 320px){
+@media (min-width: 320px) {
   h1,
   h2,
-  h3{
+  h3 {
     font-size: 1.8rem;
   }
+}
+
+@media (min-width: 750px) {
+  .hello {
+    display: flex;
+  }
+
+  .hello-left{
+    text-align: left;
+
+    padding-inline: 1.5rem;
+
+    align-self: center;
+  }
+
+  .hello-left h2{
+    width: 30.9984rem;
+  }
+
+  .dog-bg {
+    width: 48%;
+
+    padding:0;
+  }
+
+  .card img{
+    width: 100%;
+  }
+
+  #about-us img{
+    width: 100%;
+  }
+
+  .trainers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  .trainer{
+    width: 33rem;
+  }
+
+  .trainer img{
+    object-fit: contain;
+  }
+
+  .pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 0;
+  }
+
+  .blogs,
+  .services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  .blog,
+  .service{
+    width: 33rem;
+  }
+
+  .service{
+    text-align: center;
+  }
+
+  .footer-top{
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
