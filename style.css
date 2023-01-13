@@ -752,6 +752,8 @@ footer .social-links {
     grid-row: 1 / 2;
 
     width: 54rem;
+
+    transition: .2s;
   }
 
   .card img:hover{
