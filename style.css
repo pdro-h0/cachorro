@@ -80,6 +80,7 @@ header#header {
 .menu-scroll {
   position: fixed;
   right: 0;
+  top: 0;
 
   display: flex;
   justify-content: space-between;
@@ -93,6 +94,10 @@ header#header {
   background-color: white;
 
   z-index: 102;
+}
+
+.menu-desktop{
+  display: none;
 }
 
 .logo {
@@ -640,8 +645,9 @@ footer .social-links {
     object-fit: contain;
   }
 
-  .pricing-table{
+  .price-lists{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1rem 0;
   }
@@ -667,4 +673,193 @@ footer .social-links {
     justify-content: space-between;
   }
 
+}
+
+@media (min-width: 1024px){
+
+  .container,
+  #header.menu-scroll{
+    padding: 3rem 10rem;
+  }
+
+  /* .header.scroll{
+
+  } */
+
+  #home.hello .hello-left h2{
+    font-size: 6.4rem;
+    line-height: 7.68rem;
+    width: 60.4984rem;
+  }
+
+  #home.hello .hello-left p{
+    font-size: 1.92rem;
+    line-height: 2.88rem;
+    width: 40.4984rem;
+  }
+
+  .menu-mobile{
+    display: none;
+  }
+
+  .menu-desktop{
+    display: flex;
+    gap: 0 4rem;
+  }
+
+  .menu-desktop a{
+    color: #333333;
+
+    transition: .3s;
+
+    position: relative;
+  }
+
+  .menu-desktop a:hover{
+    color: #5a8787;
+  }
+
+  .menu-desktop a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+
+    width: 0;
+    height: 1.5px;
+    background-color: #5a8787;
+
+    transition: .4s;
+  }
+
+  .menu-desktop a:hover::before{
+    width: 100%;
+  }
+
+  .card{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 13rem;
+  }
+
+  .card h3{
+    grid-column: 1 / 2;
+  }
+
+  .card img{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    width: 54rem;
+  }
+
+  .card img:hover{
+    box-shadow: 8px 8px 0px #5a8787;
+  }
+
+  .card .text{
+    text-align: right;
+  }
+
+  .card.reverse img{
+    grid-column: 1 / 2;
+  }
+
+  .card.reverse .text{
+    text-align: left;
+  }
+
+  #about-us{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  #about-us img{
+    overflow: hidden;
+
+    padding-right: 5rem;
+
+    object-fit: cover;
+
+    width: 54rem;
+  }
+
+  #about-us .title p{
+    font-size: 2rem;
+    line-height: 3.4rem;
+
+    width: 44.5rem;
+  }
+
+  #about-us p.subtitle{
+    line-height: 2.72rem;
+
+    margin-bottom: 7.5rem;
+  }
+
+  #about-us ul li{
+    margin-bottom: 1.5rem;
+  }
+
+  #about-us .title,
+  #about-us .subtitle{
+    text-align: left;
+  }
+
+  .blogs{
+    display: grid;
+    grid-template-areas: 
+    "1 2"
+    "3 4";
+
+    padding: 0;
+  }
+
+  .blog-1{
+    grid-area: '1';
+  }
+
+  .blog-2{
+    grid-area: '2';
+  }
+
+  .blog-3{
+    grid-area: '3';
+  }
+
+  .blog-4{
+    grid-area: '4';
+  }
+
+  .blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  .blog img{
+    align-self: flex-start;
+    width: 19rem;
+
+    object-fit: contain;
+
+    margin-right: 2.6rem;
+  }
+
+  #pricing-table,
+  #our-trainers,
+  .trainers,
+  .services{
+    justify-content: center;
+  }
+
+  #contact-form,
+  #contact-us,
+  #footer{
+    padding-block: 0;
+  }
 }
